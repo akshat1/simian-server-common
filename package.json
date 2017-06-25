@@ -1,8 +1,11 @@
 {
   "name": "simian-server-common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common modules for the simian server,",
-  "main": "index.js",
+  "files": [
+    "lib/*"
+  ],
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"

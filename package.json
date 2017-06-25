@@ -1,0 +1,27 @@
+{
+  "name": "simian-server-common",
+  "version": "0.0.1",
+  "description": "Common modules for the simian server,",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshat1/simian-server-common.git"
+  },
+  "author": "akshat.sh@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/akshat1/simian-server-common/issues"
+  },
+  "homepage": "https://github.com/akshat1/simian-server-common#readme",
+  "dependencies": {
+    "nconf": "^0.8.4",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint-config-simian": "0.0.2"
+  }
+}
